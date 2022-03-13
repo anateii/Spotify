@@ -1,0 +1,191 @@
+#mainLogo {
+    height: 60px;
+    margin: 30px;
+  }
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #cccbcb;
+    height: 1px;
+  }
+  #row1 {
+    justify-content: center;
+  }
+  #row2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-content: center;
+  }
+  #row3 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 5px;
+  }
+  #row4 {
+    justify-content: center;
+    width: 125%;
+    margin-left: -40px;
+  }
+  #row5{
+      margin-left: 40px;
+  }
+  #row6 {
+      justify-content: center;
+  }
+  #row8 {
+      justify-content: center;
+  }
+  #text1 {
+    font-weight: bold;
+    align-self: center;
+    margin-left: 30px;
+  }
+  #containerMain {
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    max-width: 500px;
+    min-width: 365px;
+  }
+  .fa {
+    padding: 2px;
+    margin: 3px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    color: #3a62b8;
+  }
+  .buttons {
+    width: 100%;
+    border-radius: 50px;
+    border-color:  #3a62b8;
+    background-color:  #3a62b8;
+    margin: 3px;
+    margin-left: 30px;
+    height: 40px;
+    border: none;
+  }
+  .buttons:hover {
+    background-color: #264381;
+  }
+  .buttons2 {
+    width: 100%;
+    border-radius: 50px;
+    border-color: #000000;
+    background-color: #000000;
+    margin: 3px;
+    margin-left: 30px;
+    height: 40px;
+    border: none;
+  }
+  .buttons2:hover {
+    background-color: #2e2e2e;
+  }
+  .buttons1 {
+    width: 100%;
+    border-radius: 50px;
+    border-color: #000000;
+    background-color: #ffffff;
+    margin: 3px;
+    margin-left: 7px;
+    height: 40px;
+    border: none;
+  }
+  .buttons1:hover {
+    background-color: #e7e6e6;
+  }
+  .buttontext {
+    color: #fdfdfd;
+    font-weight: bold;
+    margin: 20px;
+  }
+  .buttontext1 {
+    color: #fdfdfd;
+    font-weight: bold;
+    margin: 20px;
+  }
+  .buttontext2{
+  color: #7c7c7c;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+  }
+  .fa {
+    color: #3b5998;
+  }
+  #far {
+    color: aliceblue;
+    background-color: black;
+  }
+  .middleHr {
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+  .form-group{
+    width: 80%;
+    margin-right: 235px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+  }
+  #logIn{
+      background-color: #1FDF64;
+      width: 50%;
+      border-radius: 50px;
+      border-color: #1FDF64;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+  }
+  #logInInner{
+      background-color: #1FDF64;
+      width: 100%;
+      border-radius: 50px;
+      border-color: #1FDF64;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+  }
+  #logInInner:hover {
+    text-decoration: none !important;
+    background-color: #39ed7b;
+    border-color:#39ed7b;
+   
+  }
+  a:hover {
+    text-decoration: none;
+  }
+ #exampleCheck1::after:checked{
+     background-color: rgb(130, 218, 130);
+ }
+  
+  #checkBox {
+        margin-top: 5px;
+  }
+  #exampleCheck1{
+      margin-top: 8px;
+  }
+  #exampleCheck1:active {
+      background-color: #1FDF64;
+  }
+  #linkP{
+      color: #1FDF64;
+  }
+
+  .smallText {
+      color: #1FDF64;
+      
+  }
+  form {
+    width: 120%;
+  }
