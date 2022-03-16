@@ -188,6 +188,42 @@ img[alt="artist"] {
   column-gap: 10px;
 }
 
+.artist-name {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+
+#playlist-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#playlist-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+}
+
+#playlist-hash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+}
+
+#playlist-song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+}
+
+
+
 /*-----FOOTER------*/
 h1 {
   font-size: 36px;
