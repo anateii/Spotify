@@ -1,16 +1,3 @@
-function changeSong() {
-  let newImg = (document.getElementById("image-footer").src =
-    "../images/Album covers/bohemian-rapsody.png");
-  let newTitle = (document.getElementById("title-footer").innerHTML =
-    "Bohemian Rhapsody");
-}
-
-
-
-
-
-
-
 const albumCoverElement = document.querySelector("img[alt='Album']");
 const artistCoverElement = document.querySelector("img[alt='artist']");
 const albumTitleElement = document.querySelector(".album-title");
@@ -43,7 +30,7 @@ function displayAlbum(data) {
       <div class="container d-flex justify-content-start">
         <span id="playlist-hash">#</span>
         <a href="" id="playlist-song">
-          <span>${track.title}</span>
+          <h5>${track.title}</h5>
         </a>
       </div>
       <span id="playlist-time"> ${secondsToTimestamp(track.duration)}</span>

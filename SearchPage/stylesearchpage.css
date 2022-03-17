@@ -198,7 +198,7 @@ margin-bottom:0px;
 
 .titles h5 {
 margin-right:27px;
-color:rgba(255, 255, 255, 0.671);
+color:rgb(255, 255, 255);
 margin-bottom:0px;
 align-self: flex-end;
 }
@@ -208,7 +208,7 @@ align-self: flex-end;
 
 .titles + p {
 margin-left: 27px;
-color:rgba(255, 255, 255, 0.671)
+color:rgb(255, 255, 255)
 }
 
 

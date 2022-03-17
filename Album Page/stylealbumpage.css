@@ -87,7 +87,7 @@ nav {
   display: flex;
   flex-direction: column;
   width: 15%;
-  height: 1300px;
+  height: 1350px;
   transform: translateY(0px);
   background-color: rgb(18, 18, 18);
   min-width: 260px;
@@ -166,16 +166,64 @@ main {
 
 /*FIRST ROW*/
 
+.bi-play-info {
+  color: #1fdf64;
+  margin-left: 20px;
+}
+
+.bi-play-info:hover {
+  background: #ffffff;
+  box-shadow: 0 0 0 0 #202221;
+  border-radius: 50%;
+  border: 1px solid #1fdf64;
+  animation: pulse-green 2s infinite;
+  cursor: pointer;
+}
+
+@keyframes pulse-green {
+  0% {
+    box-shadow: 0 0 0 0 #1fdf64;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(33, 41, 39, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(33, 41, 39, 0);
+  }
+}
+
+.bi-heart {
+  margin-left: 10px;
+}
+
+.bi-heart:hover {
+  color: white;
+}
+
+
+.bi-three-dots {
+  margin-left: 10px;
+}
+
+/*PLAYLIST SECTION*/
+
 .col-4 img {
   box-shadow: 0px 12px 18px -9px rgba(0, 0, 0, 0.82);
   border-radius: 6px;
 }
 
 img[alt="artist"] {
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
-  height: 50px;
+  height: 40px;
   object-fit: cover;
+}
+
+.col-8 {
+  margin-top: auto;
+  padding-left:0px;
 }
 
 .col-8 > div:first-of-type > span {
@@ -191,38 +239,60 @@ img[alt="artist"] {
 .artist-name {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  justify-content: flex-end;
 }
 
+.playlist-info {
+  border-bottom: 1px solid #dfd2d2;
+}
 
+.playlist-info:hover {
+  background-color: transparent !important;
+}
 #playlist-column {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+#playlist-column:hover {
+  background: rgba(59, 38, 37, 0.61);
+border-radius: 3px;
+box-shadow: 5px 6px 15px -3px rgba(26, 26, 26, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
 #playlist-time {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color:white;
+  color: white;
 }
 
 #playlist-hash {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color:white;
+  color: white;
 }
 
 #playlist-song {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color:white;
+  color: white;
+  width: max-content;
+  margin-top: 0px;
 }
 
 
+#playlist-song h5 {
+  margin:auto;
+}
+#playlist-time .bi {
+  margin: auto;
+}
 
 /*-----FOOTER------*/
 h1 {
@@ -256,7 +326,7 @@ div.progress {
   justify-content: space-between;
 }
 #playSection {
-  padding-top: 20px;
+  padding-top: 40px;
   height: 60px;
 }
 
@@ -282,4 +352,12 @@ div.progress {
 
 #imageS {
   height: 40px;
+}
+
+.rightVolumeSide {
+  margin-top:25px;
+}
+
+.galleryArtist> div:first-of-type {
+  margin-top:-25px;
 }
