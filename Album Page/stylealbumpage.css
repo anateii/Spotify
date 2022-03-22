@@ -17,6 +17,8 @@ body {
   height: 1300px;
   width: 1400px;
   overflow-x: hidden;
+  background-attachment:fixed;
+height:100%;
 }
 
 /*---GIORGIO'S NAVBAR*/

@@ -26,7 +26,7 @@ function displayResults(results) {
 
   row.innerHTML = results.data.map(({ album, artist }) => `
   
-    <div class="col-3 text-center text-white" >
+    <div class="col-3 text-center text-white">
       <a href="/Album Page/albumpage.html?id=${album.id}">
         <img class="img-fluid" src="${album.cover_big}" alt="img placeholder"/>  
       </a>
